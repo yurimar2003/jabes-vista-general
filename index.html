@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <div class="grid-container">
+      <div id="item1" class="item1">Insights</div>
+      <div id="item2" class="item2">¿Por qué?</div>
+      <div id="item3" class="item3">Servicios</div>
+    </div>
+    <!-- Slide -->
+    <div class="container">
+      <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="images/Rectangle 97.png" alt="" class="image" />
+            <div class="image-data"></div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/Rectangle 110.png" alt="" class="image" />
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/Rectangle 111.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </section>
+    </div>
+    <!--  Termina Slide -->
+    <div class="container-image">
+      <img src="images/Rectangle 169.png" alt="" />
+    </div>
+
+    <div class="container-2">
+      <h1 id="why?">¿Por qué?</h1>
+      <p>
+        Jabes une la expertís de los mejores profesionales en impuestos, assets
+        management, y sostenibilidad para crear equipos a la medida de sus
+        necesidades. <br /><br />
+
+        Las nuevas generaciones demandan un consumo más responsable, operaciones
+        sostenibles y una contribución activa por el medio ambiente.<br /><br />
+
+        No navegues solo y obtenga el apoyo de Jabes para que su estrategia de
+        filantropía esté alineada con sus intereses, sean estos la armonización
+        tributaria, comunicaciones corporativas o branding, la gestión de su
+        legado filantrópico o un impacto significativo en un área crítica de la
+        población.
+      </p>
+    </div>
+    <!-- Alex -->
+    <section class="" id="">
+      <div id="cont3" class="cont3">
+        <img class="imagen1" src="images/fondo.png" alt="" />
+        <img class="imagen15" src="images/Rectangle170.png" alt="" />
+        <img class="imagen2" src="images/FON2L.jpeg" alt="" />
+        <img class="imagen3" src="images/Rectangle171.png" alt="" />
+      </div>
+    </section>
+
+    <div class="contenido">
+      <h2 class="title">
+        Una experiencia <br />
+        a la medida
+      </h2>
+      <div class="boton">
+        <button>Ingresa tu correo.</button>
+      </div>
+      <!-- Alex -->
+    </div>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/redireccion.js"></script>
+
+    <!-- inicializando Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+      });
+    </script>
+  </body>
+</html>
